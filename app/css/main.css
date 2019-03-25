@@ -1,0 +1,76 @@
+:root {
+  --panel-color: rgba(55,53,51, .95);
+  --btn-color: rgb(230,172,126);
+  --input-color: rgb(230,172,126);
+  --input-text: rgb(112,112,112);
+  --active-tab-color: rgb(55,52,50);
+  --tab-color: rgb(51,47,46); }
+
+html body, html div, html dl, html dt, html dd, html ul, html li, html h1, html h2, html h3, html h4, html h5, html h6, html pre, html code, html form, html fieldset, html input, html textarea, html p, html blockquote, html th, html td {
+  margin: 0;
+  padding: 0; }
+
+html table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html fieldset, html img, html abbr {
+  border: 0; }
+
+html address, html caption, html cite, html code, html dfn, html em, html strong, html th, html var {
+  font-style: normal;
+  font-weight: normal; }
+
+html ul li {
+  list-style: none; }
+
+html caption, html th {
+  text-align: left; }
+
+html h1, html h2, html h3, html h4, html h5, html h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+html sup {
+  vertical-align: text-top; }
+
+html sub {
+  vertical-align: text-bottom; }
+
+html input, html textarea, html select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit; }
+
+html legend {
+  color: #000; }
+
+html article, html aside, html details, html figcaption, html figure, html footer, html header, html hgroup, html menu, html nav, html section, html main {
+  display: block; }
+
+html img {
+  max-width: 100%;
+  height: auto; }
+
+.main-header {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  max-width: 100%;
+  min-height: 100vh;
+  background: #9E613B; }
+
+.panel {
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 15px;
+  word-wrap: break-word;
+  width: calc(91.66667% - 30px);
+  height: 720px;
+  background-color: var(--panel-color);
+  margin: auto; }
